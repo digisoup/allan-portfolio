@@ -1,0 +1,180 @@
+nav {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: 0.3s;
+
+  }
+  nav a:hover {
+    color:gray
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .profile-pic {
+    width: 220px;
+    height:auto;
+    border-radius: 12px;
+  }
+  
+  .about-text {
+    max-width: 500px;
+  }
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+  }
+  .contact-info {
+    padding: 2rem;
+  }
+  
+  .contact-info p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.5rem 2rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #222;
+    transition: 0.2s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #f3f3f3;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  .hero {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #555;
+  }
+  
+  .hero p {
+    line-height: 1.7;
+    max-width: 600px;
+  }
+  .contact-page {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 0 20px;
+  }
+  
+  .contact-page p {
+    line-height: 1.7;
+  }
+  
+  .contact-info {
+    margin-top: 2rem;
+  }
+  .projects-page {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .project-card h2 {
+    margin-top: 0;
+  }
+  
+  .project-card p {
+    line-height: 1.6;
+  }
+  .about-container {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 0 20px;
+  }
+  
+  .profile-pic {
+    width: 260px;
+    border-radius: 12px;
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about-text p {
+    line-height: 1.7;
+  }
+  .building-list {
+    line-height: 1.8;
+    padding-left: 20px;
+  }
